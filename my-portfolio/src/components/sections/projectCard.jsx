@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = ({ title, main, liveLink, codeLink, card_img }) => {
+const projectCard = ({ title, main, liveLink, codeLink, card_img }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-90 bg-[#0c0e19] hover:shadow-xl hover:shadow-slate-900 rounded-2xl">
       <img className="p-4" src={card_img} alt="" />
@@ -20,4 +20,4 @@ const ProjectCard = ({ title, main, liveLink, codeLink, card_img }) => {
   );
 };
 
-export default ProjectCard;
+export default projectCard;
