@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import projectCard from "./projectCard";
 import RevealonScroll from "../RevealonScroll";
 
 const Project = () => {
@@ -10,14 +10,14 @@ const Project = () => {
 
       {/* Center the cards, keep same card height */}
       <div className="py-12 px-8 flex flex-wrap justify-around gap-5">
-        <ProjectCard
+        <projectCard
           title="News App"
           main="Developed a news app to fetch and display news articles from an external API. Utilized react's state and lifecycle methods with  user authentication using localStorage "
           liveLink="https://material-ui-flax-five.vercel.app/"
           codeLink="https://github.com/Anoop-95/Material-UI"
           card_img="/news_bg.png"
         />
-        <ProjectCard
+        <projectCard
           title="My Notes"
           main="A full-stack Notes App built with React, Node.js, and JWT authentication, featuring a responsive Bootstrap UI for creating and managing notes."
           liveLink="https://mynotes-app-xi.vercel.app"
