@@ -14,17 +14,17 @@ function App() {
 
   return (
     <>
-    {!isloaded && <Loading onComplete ={() => setIsLoaded(true) }/>}
-      <div className='h-auto w-full overflow-hidden'>
-        <Navbar />
-        
-        <Home />
-        <About />
-        <Project />
-        <Contact />
-      </div>
-    
-      
+      {!isloaded ? (
+        <Loading onComplete={() => setIsLoaded(true)} />
+      ) : (
+        <div className="h-auto w-full">
+          <Navbar />
+          <Home />
+          <About />
+          <Project />
+          <Contact />
+        </div>
+      )}
     </>
   )
 }

@@ -8,7 +8,8 @@ const Navbar = () => {
   const closeMenu = () => setMenu(false);
 
   return (
-    <nav className="static flex flex-wrap justify-between md:items-center px-10 pt-6 md:px-20 bg-slate-100 ">
+    <nav className="sticky top-0 z-50 flex flex-wrap items-center justify-between px-10 py-4 md:px-20 bg-slate-100 shadow-md">
+
       <span className="text-xl tracking-wide">Anoop's Portfolio</span>
 
       {/* Desktop Menu */}

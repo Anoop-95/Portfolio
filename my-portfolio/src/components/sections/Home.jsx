@@ -6,8 +6,8 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="flex flex-col md:flex-row w-full justify-between items-center p-10 md:p-20">
-  
+    <section id="home" className="flex flex-col md:flex-row w-full justify-between items-center p-10 md:p-20">
+
   {/* Content Section */}
   <div className="w-full md:w-2/4 md:pt-10 text-center md:text-left">
     <h1 className="text-xl md:text-6xl font-bold leading-normal tracking-tighter">
@@ -15,7 +15,7 @@ const Home = () => {
     </h1>
     <h3 className="text-lg md:text-3xl font-semibold">Welcome to My Portfolio</h3>
     <span>
-      <h5 className="text-md md:text-xl font-semibold">I am also</h5>
+      <h5 className="text-md md:text-xl font-semibold">I'm a Software Engineer, also a</h5>
       <h5 className="text-md md:text-xl font-semibold text-amber-300 min-h-[2rem]"><TextChange /></h5>
     </span>
     <p className="text-sm md:text-2xl tracking-tight">
